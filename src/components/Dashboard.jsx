@@ -159,7 +159,6 @@ const Dashboard = () => {
             <div className=' h-full w-[70%] p-4'>
               <h3 className="text-xl font-bold mb-4">Prepare with ease</h3>
               <Prepare />
-
             </div>
             <div className='w-[25%] h-[50%]'>
               <div className='flex gap-5 mb-[3rem] bg-white p-4 rounded-lg shadow '>
