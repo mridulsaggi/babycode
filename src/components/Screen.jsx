@@ -29,9 +29,9 @@ const Screen = () => {
   }, [navigate]);
   return (
     <div className='min-h-screen w-full bg-[#c7c7c7] flex flex-col  items-center justify-center'>
-        <h1 className='text-3xl '>WELCOME TO THE WEBSITE. </h1>
+        <h1 className='text-2xl sm:text-3xl'>WELCOME TO THE WEBSITE. </h1>
         <h1 className='text-xl mt-[1rem]'>Please login using google </h1>
-        <div className='m-5'>
+        <div className='m-3 sm:m-5'>
           <button className='m-2 bg-[blue] h-[3rem] w-[10rem] rounded-lg text-white font-bold' onClick={handleLogin}>
             LOGIN
           </button>
